@@ -69,7 +69,7 @@ fi
 
 dnl Temporarily set to yes so it builds properly.  See #89473.
 if test "x$use_gtk" != "xno"; then
-  needed_pkgs="$needed_pkgs gtk+-2.0 "
+  needed_pkgs="$needed_pkgs gtk+-3.0 "
 fi
 
 if test "x$png_theme" = "xyes"; then

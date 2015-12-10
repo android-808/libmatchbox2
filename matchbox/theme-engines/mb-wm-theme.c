@@ -29,6 +29,7 @@
 #include <X11/Xft/Xft.h>
 #include <glib-object.h>
 #include <fcntl.h>
+#include <unistd.h>
 
 #define SIMPLE_FRAME_TITLEBAR_HEIGHT 40
 #define SIMPLE_FRAME_EDGE_SIZE 0
